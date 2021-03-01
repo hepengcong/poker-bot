@@ -149,7 +149,7 @@ def build_prompt_payload(cards: List[str], remaining: int, call_needed: int, min
 if __name__ == "__main__":
     import os
     import slack
-    slack_token = "xoxb-1801133771413-1816861283297-CKmApWeksaVYGIlzj78iJROZ"
+    slack_token = "xoxb-1801133771413-1816861283297-27KF2Pp7PuqcWar9Tmdwd61A"
     web_client = slack.WebClient(token=slack_token)
     # p1 = build_info_str("UPGH1C1PF", 200, "check", 0, False, 0)
     # p2 = build_info_str("UPGH1C1PF", 400, "bet", 40, False, 0)
