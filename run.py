@@ -52,7 +52,7 @@ def test_rtm_client(**payload):
 
 
 if __name__ == "__main__":
-    slack_token = os.environ["SLACK_BOT_TOKEN"]
+    slack_token = "xoxb-1801133771413-1816861283297-CKmApWeksaVYGIlzj78iJROZ"
     ssl_context = ssl_lib.create_default_context(cafile=certifi.where())
     web_client = SyncClient(token=slack_token, loop=asyncio.new_event_loop())
     bot_userid = web_client.auth_test()['user_id']
