@@ -88,7 +88,7 @@ def get_username(web_client: slack.WebClient, user: str) -> str:
 if __name__ == "__main__":
     import os
     import slack
-    slack_token = os.environ["SLACK_BOT_TOKEN"]
+    slack_token = "xoxb-1801133771413-1816861283297-CKmApWeksaVYGIlzj78iJROZ"
     web_client = slack.WebClient(token=slack_token)
     # print(get_username(web_client, "UPGH1C1PF"))
     # web_client.files_upload(content="abc", channels=["CP3P9CS2W"])
