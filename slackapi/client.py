@@ -92,7 +92,7 @@ if __name__ == "__main__":
     web_client = slack.WebClient(token=slack_token)
     # print(get_username(web_client, "UPGH1C1PF"))
     # web_client.files_upload(content="abc", channels=["CP3P9CS2W"])
-    web_client.chat_postMessage(channel="CP3P9CS2W", text="```abc```")
+    web_client.chat_postMessage(channel="texas", text="```abc```")
 
     # ts = send_msg(web_client, "CP3P9CS2W", None, None,
     #               build_payload(["Qs", "8d", "5c"], 1200, 20, "UPGH1C1PF", [p1, p2, p3]))
